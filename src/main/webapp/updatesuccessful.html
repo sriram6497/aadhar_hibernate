@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("/Aadhar_Hibernate/1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    animation: fadeInUp 1s;
+  }
+  h1 {
+    color: rgb(128, 0, 255);
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0;
+  }
+  button {
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  button:hover {
+    background-color: #2ca82c;
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+<title>Registration Completed</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Updation Completed</h1>
+
+    <button onclick="backToHomePage()">Back to Home Page</button>
+  </div>
+  
+  <script>
+    function backToHomePage() {
+      window.location.href = 'index.html'; // 
+    }
+  </script>
+</body>
+</html>
+</html>
